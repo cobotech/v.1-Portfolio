@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post | cobotech portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html">cobotech</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html" class="active">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<div id="post-container">
+  <div class="container">
+    <div class="post-header">
+      <a class="back-link" href="blog.html">&larr; 記事一覧に戻る</a>
+      <div class="post-date" id="post-date"></div>
+      <h1 id="post-title"></h1>
+      <ul class="tag-list" id="post-tags"></ul>
+    </div>
+    <article class="post-content" id="post-body"></article>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/post.js"></script>
+</body>
+</html>

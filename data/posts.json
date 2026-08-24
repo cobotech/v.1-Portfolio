@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "ポートフォリオサイトを作りました",
+    "date": "2026-08-24",
+    "tags": ["雑記"],
+    "excerpt": "このサイトを作った経緯と、今後の学習方針についてまとめました。",
+    "file": "posts/hello-world.md"
+  },
+  {
+    "slug": "how-this-site-works",
+    "title": "このサイトの仕組みについて",
+    "date": "2026-08-24",
+    "tags": ["Web開発", "学習メモ"],
+    "excerpt": "HTML / CSS / JavaScriptだけで作ったこのサイトの構成を、将来Django / Reactで再現するために整理しました。",
+    "file": "posts/how-this-site-works.md"
+  }
+]

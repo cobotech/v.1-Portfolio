@@ -1,0 +1,17 @@
+[
+  {
+    "period": "2026 -",
+    "title": "プログラミング学習を開始",
+    "description": "Web開発の基礎(HTML / CSS / JavaScript)を独学で学習中。学んだ内容はこのサイトのブログにまとめています。"
+  },
+  {
+    "period": "これから",
+    "title": "PythonとDjangoの学習",
+    "description": "バックエンドの基礎としてPythonとDjangoを学び、このポートフォリオサイトをDjangoで再構築する予定。"
+  },
+  {
+    "period": "これから",
+    "title": "Reactの学習",
+    "description": "フロントエンドの理解を深めるためにReactを学び、コンポーネント指向でのUI構築に挑戦する予定。"
+  }
+]

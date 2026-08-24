@@ -1,0 +1,24 @@
+{
+  "name": "cobotech",
+  "title": "Webエンジニアを目指して学習中",
+  "bio": "プログラミング学習中です。日々学んだことをこのサイトのブログにまとめながら、少しずつスキルを積み上げています。まずはHTML/CSS/JavaScriptから始め、将来的にはDjangoやReactを使ってこのポートフォリオサイト自体を自分の手で再構築することを目標にしています。",
+  "avatarInitial": "C",
+  "skills": [
+    { "name": "HTML", "icon": "devicon-html5-plain colored" },
+    { "name": "CSS", "icon": "devicon-css3-plain colored" },
+    { "name": "JavaScript", "icon": "devicon-javascript-plain colored" },
+    { "name": "Git", "icon": "devicon-git-plain colored" },
+    { "name": "Python", "icon": "devicon-python-plain colored" },
+    { "name": "Django", "icon": "devicon-django-plain" },
+    { "name": "React", "icon": "devicon-react-original colored" },
+    { "name": "C", "icon": "devicon-c-plain colored" },
+    { "name": "TypeScript", "icon": "devicon-typescript-plain colored" },
+    { "name": "Svelte", "icon": "devicon-svelte-plain colored" },
+    { "name": "Skeleton", "iconText": "Sk" }
+  ],
+  "links": {
+    "github": "https://github.com/your-username",
+    "twitter": "https://twitter.com/your-handle",
+    "email": "mailto:example@example.com"
+  }
+}
