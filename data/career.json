@@ -1,17 +1,38 @@
 [
   {
-    "period": "2026 -",
-    "title": "プログラミング学習を開始",
-    "description": "Web開発の基礎(HTML / CSS / JavaScript)を独学で学習中。学んだ内容はこのサイトのブログにまとめています。"
+    "period": "2022.04",
+    "title": "東洋大学 情報連携学部 情報連携学科 入学",
+    "description": "プログラミングを学びたく、大学に進学。Web開発の基礎(HTML / CSS / JavaScript)やプログラミング言語（Python）を学習。"
   },
   {
-    "period": "これから",
-    "title": "PythonとDjangoの学習",
-    "description": "バックエンドの基礎としてPythonとDjangoを学び、このポートフォリオサイトをDjangoで再構築する予定。"
+    "period": "2025.09",
+    "title": "東洋大学 情報連携学部 情報連携学科 中退",
+    "description": "年間144万円の授業料の資金繰りが難しく、中退することを決断。"
+  },
+    {
+    "period": "2025.10",
+    "title": "ZEN大学 知能情報社会学部 知能情報社会学科 入学",
+    "description": "プログラミングを学びたい、大卒という肩書きがどうしても欲しいという気持ちから通信制の大学を選択。授業料が安く、情報系の授業が豊富なZEN大学に入学。"
+  },
+
+  {
+    "period": "2025.12",
+    "title": "調理師免許取得",
+    "description": "令和7年度調理師試験に合格。調理師免許取得。"
   },
   {
-    "period": "これから",
-    "title": "Reactの学習",
-    "description": "フロントエンドの理解を深めるためにReactを学び、コンポーネント指向でのUI構築に挑戦する予定。"
+    "period": "2026.03-04",
+    "title": "42Tokyo 3月Piscineを受験",
+    "description": "ZEN大学以外にコミュニティが欲しく、授業料が無料な42を受験。C言語は初挑戦でかなり苦戦。試験期間中は230h以上コミット。"
+  },
+  {
+    "period": "2026.04-",
+    "title": "42Tokyo 入学",
+    "description": "念願の42に入学。C言語に翻弄されながらも日々学修を積み重ねている。"
+  },
+  {
+    "period": "これから(-2027.06)",
+    "title": "情報系資格取得と42 Common Core 突破が目標。",
+    "description": ""
   }
 ]
