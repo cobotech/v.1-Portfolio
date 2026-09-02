@@ -33,4 +33,38 @@
 
 ## 出典
 - `en_subject.pdf` Chapter I Goals（static変数が学習目標）
-- `en_subject.pdf` Chapter IV Mandatory part（プロトタイプ / 戻り値 / `\n` の扱い / BUFFER_SIZE / lseek禁止）
+- `en_subject.pdf` Chapter IV Mandatory part（プロトタイプ / 戻り値 / `\n` の扱い / BUFFER_SIZE / lseek禁止)
+
+# Get Next Line — static 変数
+
+## 普通の変数との違い
+| | 寿命 | 初期値を書かない場合 |
+|---|---|---|
+| 普通の変数（自動変数） | 関数の開始〜終了 | ゴミ（不定値） |
+| static 変数 | プログラムの開始〜終了 | 0 / NULL |
+
+## なぜ関数を抜けても残るのか
+- 置き場所が違う
+- 普通の変数：スタック（関数終了で片付けられる）
+- static 変数：プログラム実行中ずっと存在する領域
+
+## その他の性質
+- 初期化は最初の 1 回だけ実行される
+- 2 回目以降の呼び出しでは初期化は飛ばされる
+
+## get_next_line での役割
+- 「まだ返していない読み込み済みデータ」を次回まで保持する
+- 初期値が NULL なので、1 回目は自然に「空」から始められる
+
+## 注意点
+- static が守るのは「変数そのもの」だけ
+- malloc したメモリを free してしまえば、
+  ポインタが static でも中身は無効になる
+
+## 禁止事項の確認
+- グローバル変数は禁止（static はローカルに置く）
+
+## 出典
+- `en_subject.pdf` Chapter I Goals（static 変数が学習目標）
+- `en_subject.pdf` Chapter IV Mandatory part（ヒント欄 / Forbidden: Global variables）
+- `en_subject.pdf` Chapter II Common Instructions（メモリ管理）
